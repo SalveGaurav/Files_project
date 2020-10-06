@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    height: 90%;
+    
+}
+input[type="file"]{
+    margin-top: 20px;
+    width: auto;
+    background-color: #fff;
+}
