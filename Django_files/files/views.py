@@ -15,7 +15,7 @@ def upload(request):
         obj=Datas(file=f)
         obj.save()
 
-    return render(request,"index.html")
+    return HttpResponse("done")
 
 def changename(file):
     oldname=file.name

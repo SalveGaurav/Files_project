@@ -1,19 +1,23 @@
 $(document).ready(function(){
     $('#Send').click(function(){
-        var form = document.getElementById("files");
-        //console.log(form)
-        var files=new FormData(form);
-        
-       console.log(files)
+        const Ipfiles=document.getElementById("files");
+        console.log(Ipfiles.files)
+        const button=document.getElementById("Send");
+        //const xhr=new XMLHttpRequest();
+        const formdata=new FormData();
+        for(const file of Ipfiles.files){
+            formdata.append("myfiles",file)
+        }
+        console.log(formdata);        
         $.ajax({
+            processData: false,
+            contentType: false,
             type: "POST",
-            url: '/upload/',  
+            url: "/upload",  
             data: {
-                    csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(),
-                    data:files, 
-                    processData: false,
-                    contentType: false,
-                    
+                
+                    data:formdata,
+                    csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),        
                 }, 
             success:  function(data){
               
