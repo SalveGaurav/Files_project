@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2969ed9f-aff4-48cd-807d-faab0915568e" name="Default Changelist" comment="" />
+    <list default="true" id="2969ed9f-aff4-48cd-807d-faab0915568e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Django_files" />
+  </component>
   <component name="ProjectId" id="1iJCKc6lQMF551XZi8hsYi8UnYL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
@@ -40,13 +48,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1601797896345">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1601977288951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601797896345" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1601961065133">
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601977288951" />
+    <state x="553" y="256" key="Github.ShareDialog" timestamp="1601977434186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601961065133" />
+    <state x="553" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1601977434186" />
+    <state x="440" y="66" key="Github.UntrackedFilesDialog" timestamp="1601977458390">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="66" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601977458390" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602069932292">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602069932292" />
   </component>
 </project>
