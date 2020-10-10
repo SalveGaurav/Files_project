@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2969ed9f-aff4-48cd-807d-faab0915568e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django_files/files/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Django_files/files/static/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_files/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django_files/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_files/files/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Django_files/files/static/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_files/files/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django_files/files/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_files/files/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_files/files/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django_files/files/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_files/files/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Django_files" />
   </component>
   <component name="ProjectId" id="1iJCKc6lQMF551XZi8hsYi8UnYL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -77,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602071313326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="forbidden error">
+      <created>1602071699121</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602071699121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -85,22 +93,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="forbidden error" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="332" y="0" key="CommitChangelistDialog2" timestamp="1602071310122">
+    <state x="332" y="0" key="CommitChangelistDialog2" timestamp="1602071692371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602071310122" />
+    <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602071692371" />
     <state x="141" y="53" key="DiffContextDialog" timestamp="1602071196039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="53" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1602071196039" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1602071644109">
+    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1602071705031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602071644109" />
-    <state x="553" y="256" key="Github.ShareDialog" timestamp="1602070903086">
+    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602071705031" />
+    <state x="553" y="256" key="Github.ShareDialog" timestamp="1602071794165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="553" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1602070903086" />
+    <state x="553" y="256" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1602071794165" />
     <state x="440" y="66" key="Github.UntrackedFilesDialog" timestamp="1601977458390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -109,9 +117,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602071362746" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602069932292">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602306913633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602069932292" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602306913633" />
   </component>
 </project>
