@@ -2,6 +2,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Datas
+import json
 from django.core.files.storage import FileSystemStorage
 
 def index(request):
@@ -14,8 +15,11 @@ def upload(request):
             f=changename(file)
         obj=Datas(file=f)
         obj.save()
+    files = list(Datas.objects.all().values('file'))
+    print(files)
 
-    return HttpResponse("done")
+    return HttpResponse(json.dumps(files))
+
 
 def changename(file):
     oldname=file.name
